@@ -26,6 +26,11 @@ of release mode, you need to modify the following in the file `CMakeLists.txt`:
 `fmt` and `spdlog` under `target_link_libraries(` (two times) into `fmtd` and
 `spdlogd`.
 
+## Linux
+
+No details for Linux here, yet, but you can take a look at the Windows
+instructions below and at the [Makefile](./mt_tts/Makefile).
+
 ## Windows
 
 ### Build [Piper](https://github.com/rhasspy/piper)
