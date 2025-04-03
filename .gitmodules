@@ -1,0 +1,3 @@
+[submodule "mt_tts/piper"]
+	path = mt_tts/piper
+	url = https://github.com/rhasspy/piper.git
