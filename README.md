@@ -89,7 +89,7 @@ Output directly to speakers with [ffmpeg](https://ffmpeg.org/)
   - `build\pi\lib\onnxruntime.dll`
 - Also copy a [voice model file](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx?download=true) and its [configuration file](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json?download=true.json) to the same new folder.
 - Open `x64 Native Tools Command Prompt for VS 2022` commandline.
-- Got to the new folder and create a file `main.c` with the following code:
+- Go to the new folder and create a file `main.c` with the following code:
 
 ```
 #include "mt_tts.h"
