@@ -66,7 +66,7 @@ Download a voice and its configuration, e.g. one for speech output in German lan
 
 Store these files in the same, new folder.
 
-Create a WAV file:
+#### Test 1: Create a WAV file:
 
 `echo "Ich bin ein Mensch, Du auch?" | piper --model de_DE-thorsten-high.onnx --config de_DE-thorsten-high.onnx.json --debug --output_file test.wav`
 
@@ -74,7 +74,7 @@ Play back the WAV file:
 
 `ffplay.exe test.wav`
 
-Output directly to speakers with [ffmpeg](https://ffmpeg.org/)
+#### Test 2: Output directly to speakers with [ffmpeg](https://ffmpeg.org/)
 ([ffmpeg](https://ffmpeg.org/) parameters may not be optimal, in this example):
 
 `echo "Hallo, ich bin kein Mensch, was man auch einigermaßen leicht heraushören kann, meinst Du nicht auch? Trotzdem ein tolles TTS-System!" | piper --model de_DE-thorsten-high.onnx --config de_DE-thorsten-high.onnx.json --output_raw | ffplay.exe -f s16le -ar 22050 -`
