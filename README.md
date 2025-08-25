@@ -96,7 +96,7 @@ Play back the WAV file:
   - `build\pi\bin\espeak-ng.dll`
   - `build\pi\bin\piper_phonemize.dll`
   - `build\pi\lib\onnxruntime.dll`
-- Also copy a [voice model file](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx?download=true) and its [configuration file](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json?download=true.json) to the same new folder.
+- Also copy a [voice model file](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx?download=true) and its [configuration file](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json?download=true) to the same new folder.
 - Open `x64 Native Tools Command Prompt for VS 2022` commandline.
 - Go to the new folder and create a file `main.c` with the following code:
 
