@@ -62,13 +62,17 @@ a new folder:
 Download a voice and its configuration, e.g. one for speech output in German language by [Thorsten Müller](https://github.com/thorstenMueller/Thorsten-Voice):
 
 - [Model file (ONNX)](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx?download=true)
-- [Model configuration file (JSON)](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json?download=true.json)
+- [Model configuration file (JSON)](https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json?download=true)
 
 Store these files in the same, new folder.
 
 Create a WAV file:
 
-`echo "Ich bin ein Mensch, Du auch?" | piper --model de_DE-thorsten-high.onnx --config de_DE-thorsten-high.onnx.json`
+`echo "Ich bin ein Mensch, Du auch?" | piper --model de_DE-thorsten-high.onnx --config de_DE-thorsten-high.onnx.json --debug --output_file test.wav`
+
+Play back the WAV file:
+
+`ffplay.exe test.wav`
 
 Output directly to speakers with [ffmpeg](https://ffmpeg.org/)
 ([ffmpeg](https://ffmpeg.org/) parameters may not be optimal, in this example):
