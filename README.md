@@ -13,8 +13,13 @@ to the awesome text-to-speech system called
 
 ## How To
 
-After cloning the **mt_tts** repository, enter its folder and proceed as
-follows.
+Clone the **mt_tts** repository:
+
+`git clone https://github.com/RhinoDevel/mt_tts.git`
+
+Enter the created folder:
+
+`cd mt_tts`
 
 Get the [Piper](https://github.com/rhasspy/piper) submodule content:
 
