@@ -11,6 +11,14 @@ to the awesome text-to-speech system called
 - Text to raw audio samples.
 - Text to raw audio stream-to-stream conversion.
 
+## STT -> LLM -> TTS pipeline example in C
+
+Take a look at the example showing a simple **S**peech-**To**-**T**ext,
+**L**arge-**L**anguage-**M**odel, **T**ext-**T**o-**S**peech pipeline via
+[mt_stt](https://github.com/RhinoDevel/mt_stt),
+[mt_llm](https://github.com/RhinoDevel/mt_llm)
+and [mt_tts](./)!
+
 ## How To
 
 Clone the **mt_tts** repository:
