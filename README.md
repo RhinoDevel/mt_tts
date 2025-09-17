@@ -13,8 +13,9 @@ to the awesome text-to-speech system called
 
 ## STT -> LLM -> TTS pipeline example in C
 
-Take a look at the example showing a simple **S**peech-**To**-**T**ext,
-**L**arge-**L**anguage-**M**odel, **T**ext-**T**o-**S**peech pipeline via
+Take a look at the [example](https://github.com/RhinoDevel/mt_llm/tree/main/stt_llm_tts-pipeline-example)
+showing a simple **S**peech-**To**-**T**ext, **L**arge-**L**anguage-**M**odel,
+**T**ext-**T**o-**S**peech pipeline via
 [mt_stt](https://github.com/RhinoDevel/mt_stt),
 [mt_llm](https://github.com/RhinoDevel/mt_llm)
 and [mt_tts](./)!
